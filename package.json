@@ -1,0 +1,19 @@
+{
+  "name": "rain-tower-video",
+  "version": "1.0.0",
+  "description": "A procedural animated short built with JavaScript, Canvas 2D, and Web Audio.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muelsyse0613/RainTower-video.git"
+  },
+  "scripts": {
+    "build": "python3 build.py",
+    "audio": "node tools/audio-check.mjs",
+    "export": "node tools/export-video.mjs",
+    "check:performance": "node tools/perf-check.mjs"
+  },
+  "devDependencies": {
+    "puppeteer-core": "24.43.1"
+  }
+}
